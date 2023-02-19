@@ -8,6 +8,13 @@ spring:
 info:
   component: Product Service
 
+
+server:
+  port:9788
+logging:
+  level:
+    root: off
+    com.example: DEBUG
 ---
 spring:
   profiles: localhost
